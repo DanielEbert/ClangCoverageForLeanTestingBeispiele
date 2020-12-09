@@ -61,4 +61,4 @@ Follow the following steps in the terminal:
 
 | ![report](img/report2.png "report2") |
 |:--:|
-| * Short Report in the Terminal* |
+| *Short Report in the Terminal* |
