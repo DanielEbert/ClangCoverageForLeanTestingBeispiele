@@ -41,8 +41,9 @@ Follow the following steps in the terminal:
 - Run 'llvm-profdata-10 merge -sparse default.profraw -o default.profdata'. The '10' in 'llvm-profdata-10' is the version of llvm. If you are using e.g. an older version of ubuntu, you might have installed 'llvm-profdata-9' or 'llvm-profdata-8' instead of 'llvm-profdata-10'. The command line flags for older versions are the same, just change '...-10' to your version in this and the following commands. As a side note: LLVM creates a separate profile file for each './dertest' binary execution. 'llvm-profdata-10 merge' can be used to combine multiple profile files to later generate a report of the combined coverage reached in multiple individual './dertest' binary executions. In other words, the merged profile file 'default.profdata' contains the information about the coverage reached by one or multiple individual profile files.
 - Run 'llvm-cov-10 show ./dertest -instr-profile=default.profdata -format=html > coverage.html' to create a 'coverage.html' file. Open this file in your favorite browser. There are many alternatives to generating an html file. For example you can run 'llvm-cov-10 report ./dertest -instr-profile=default.profdata' to get a quick overview. The interested reader can see [here](https://llvm.org/docs/CommandGuide/llvm-cov.html) for more information.
 
-![makeclean](img/makeclean.png "make clean output")
-*make clean output*
+| ![makeclean](img/makeclean.png "make clean output") |
+|:--:|
+| *make clean output* |
 
 ![make](img/make.png "make output")
 
