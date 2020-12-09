@@ -31,11 +31,11 @@ The result should look like this:
 |:--:|
 | *Changes to the Makefile* |
 
-This will add coverage instrumentation to the binary. If a coverage instrumented binary is executed, a so-called profile file is created. This profile file contains information about the reached coverage of the execution.
+This will add coverage instrumentation to the binary. Executing a coverage instrumented binary creates a so-called profile file. This profile file contains information about the reached coverage of the execution.
 
 ### Compile and execute a instrumented binary
 
-In the 'LeanTestingBeispiele' folder, execute 'make clean && make'. The created binaries are instrumented now. In this example, we use the binary in the 'taxi1' folder. The process is the same for the other binaries created with 'make'. See below for images of the steps output.
+In the 'LeanTestingBeispiele' folder, execute 'make clean && make'. The created binaries are instrumented. In this example, we use the binary in the 'taxi1' folder. The process is the same for the other binaries created with 'make'. See below for images of the steps output.
 
 Follow the following steps in the terminal:
 1. Run 'cd ./taxi1'
