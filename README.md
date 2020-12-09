@@ -23,8 +23,8 @@ In the LeanTestingBeispiele examples, these can be configured in the './LeanTest
 - Uncomment the following lines:
 	- Line 2: 'CXX := clang++'
 	- Line 3: 'CXXFLAGS := -c -std=c++14 -Weverything  -Wno-c++98-compat -Wno-c++11-compat-pedantic -Wno-invalid-source-encoding -Wno-global-constructors -Wno-covered-switch-default -pedantic -ferror-limit=1'
-- Append ' -fprofile-instr-generate -fcoverage-mapping' (without "'") to the CXXFLAGS (Line 3)
-- Add a new line, for example after line 3, with the content 'LDFLAGS := -fprofile-instr-generate -fcoverage-mapping' (without "'")
+- Append ' -fprofile-instr-generate -fcoverage-mapping' (without apostrophe) to the CXXFLAGS (Line 3)
+- Add a new line, for example after line 3, with the content 'LDFLAGS := -fprofile-instr-generate -fcoverage-mapping' (without apostrophe)
 
 The result should look like this:
 | ![makefilechanges](img/makefilechanges.png) |
