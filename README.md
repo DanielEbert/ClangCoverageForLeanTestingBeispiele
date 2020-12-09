@@ -42,6 +42,7 @@ Follow the following steps in the terminal:
 - Run 'llvm-cov-10 show ./dertest -instr-profile=default.profdata -format=html > coverage.html' to create a 'coverage.html' file. Open this file in your favorite browser. There are many alternatives to generating an html file. For example you can run 'llvm-cov-10 report ./dertest -instr-profile=default.profdata' to get a quick overview. The interested reader can see [here](https://llvm.org/docs/CommandGuide/llvm-cov.html) for more information.
 
 ![makeclean](img/makeclean.png "make clean output")
+*make clean output*
 
 ![make](img/make.png "make output")
 
