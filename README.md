@@ -5,10 +5,10 @@ LLVM is a compiler infrastructure. clang is a compiler, the frontend of LLVM, an
 ### Installation 
 
 We are using Ubuntu 20.04.1. LLVM and clang are also available on other systems like Windows and mac. However, we don't provide installation instructions for windows and mac.
-~~~
+~~~console
 apt-get update
 apt-get install -y clang
-~~~console
+~~~
 
 This installs not only the clang compiler, but also other LLVM tools, e.g. the clang coverage tools. These clang coverage tools are used in the following sections.
 
