@@ -27,7 +27,9 @@ In the LeanTestingBeispiele examples, these can be configured in the './LeanTest
 - Add a new line, for example after line 3, with the content 'LDFLAGS := -fprofile-instr-generate -fcoverage-mapping' (without "'")
 
 The result should look like this:
-![](img/makefilechanges.png)
+| ![makefilechanges](img/makefilechanges.png) |
+|:--:|
+| *Changes to the Makefile* |
 
 This will add coverage instrumentation to the binary. If a coverage instrumented binary is executed, a so-called profile file is created. This profile file contains information about the reached coverage of the execution.
 
@@ -43,11 +45,20 @@ Follow the following steps in the terminal:
 
 | ![makeclean](img/makeclean.png "make clean output") |
 |:--:|
-| *make clean output* |
+| *make clean Output* |
 
-![make](img/make.png "make output")
+| ![make](img/make.png "make output") |
+|:--:|
+| *make Output* |
 
-![llvmtools](img/llvmtools.png "llvmtools output")
+| ![llvmtools](img/llvmtools.png "llvmtools output") |
+|:--:|
+| *LLVM Tools Commands* |
 
-![report](img/report.png "report")
+| ![report](img/report.png "report") |
+|:--:|
+| *Report in Browser* |
 
+| ![report](img/report2.png "report2") |
+|:--:|
+| * Short Report in the Terminal* |
