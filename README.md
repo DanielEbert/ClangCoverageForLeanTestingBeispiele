@@ -19,7 +19,7 @@ We need to change the compiler from g++ to clang++ and add compiler and linker f
 In the LeanTestingBeispiele examples, this can be configured in the './LeanTestingBeispiele/include.mf' file. Open this file and modify the file as follows:
 - Comment out the following lines:
 	- Line 4: 'CXX := g++'
-	- Line 6: 'CXXFLAGS += -g -Wall -Wextra -pthread -std=gnu++0x -pedantic -fmax-errors=1'
+	- Line 5: 'CXXFLAGS += -g -Wall -Wextra -pthread -std=gnu++0x -pedantic -fmax-errors=1'
 - Uncomment the following lines:
 	- Line 2: 'CXX := clang++'
 	- Line 3: 'CXXFLAGS := -c -std=c++14 -Weverything  -Wno-c++98-compat -Wno-c++11-compat-pedantic -Wno-invalid-source-encoding -Wno-global-constructors -Wno-covered-switch-default -pedantic -ferror-limit=1'
